@@ -1,2 +1,2 @@
-# mlh-project
-MLH Project
+# red-maple-project
+Red Maple Project 
