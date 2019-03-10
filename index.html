@@ -13,10 +13,10 @@
     <video muted autoplay loop id="background">
         <source src="RedLeaf.mp4" type="video/mp4">
     </video>
-    <header class="col-md-6"> <img class="logo" src="logo2.png" /> </header>
+    <header class="col-md-6"> <img class="logo" src="leaf logo.png" /> </header>
 
     <div class="goal">
-        <h1>Our goal</h1>
+        <h2>Our goal</h2>
         <p>Giving people positive effect</p>
         <!-- Button to open the modal -->
         <button id="start">Start Your Journey</button>
@@ -28,7 +28,7 @@
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
         <form class="modal-content" action="/action_page.php">
             <div class="container">
-                <h1>Sign In / Sign Up</h1>
+                <h2>Sign In / Sign Up</h2>
                 <hr>
                 <!-- <label for="email"><b>Email</b></label> -->
                 <input type="text" placeholder="Email" name="email" required>
@@ -36,9 +36,9 @@
                 <!-- <label for="psw"><b>Password</b></label> -->
                 <input type="password" placeholder="Password" name="psw" required>
 
-                <label>
-    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-  </label>
+                <div id="checked">
+                    <input type="checkbox" checked="checked" style="margin-bottom:10px"> Remember me
+                </div>
 
                 <div class="clearfix">
                     <button type="button" class="signin">Sign In</button>
