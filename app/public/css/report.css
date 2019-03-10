@@ -43,20 +43,14 @@
   width: 100%;
 }
 
-#line {
-  height: 500px;
-  max-width: 100%;
-}
-
-#donut {
-  height: 400px;
-  max-width: 50%;
-}
-
 #score {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+#donut {
+  margin-right: 30px;
 }
 
 #scoreContainer {
