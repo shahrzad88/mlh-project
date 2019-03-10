@@ -13,7 +13,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  max-width: 100%;
 }
 
 #details {
@@ -43,20 +43,14 @@
   width: 100%;
 }
 
-#line {
-  max-height: 50%;
-  max-width: 100%;
-}
-
-#donut {
-  max-height: 100%;
-  max-width: 50%;
-}
-
 #score {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+#donut {
+  margin-right: 30px;
 }
 
 #scoreContainer {
