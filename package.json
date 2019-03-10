@@ -1,0 +1,27 @@
+{
+  "name": "red-maple-project",
+  "version": "1.0.0",
+  "description": "This app will promote green companies and encourage people to use those companies and their products in their daily life.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahrzad88/red-maple-project.git"
+  },
+  "keywords": [
+    "javascript",
+    "sustainability"
+  ],
+  "author": "Shahrzad Inder Semin Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahrzad88/red-maple-project/issues"
+  },
+  "homepage": "https://github.com/shahrzad88/red-maple-project#readme",
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "express": "^4.16.4"
+  }
+}
