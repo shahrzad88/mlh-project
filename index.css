@@ -14,11 +14,14 @@
 .goal {
     position: fixed;
     bottom: 10;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     color: #f1f1f1;
-    width: 100%;
+    width: 70%;
     padding: 20px;
     text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 15%;
 }
 
 * {
@@ -30,10 +33,11 @@ body {
 }
 
 .logo {
-    max-width: 10%;
-    max-height: 15%;
-    padding: 10px 15px;
-    color: red;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    z-index: 1;
 }
 
 
@@ -68,7 +72,7 @@ button {
     margin: 8px 0;
     border: 1;
     cursor: pointer;
-    width: 50%;
+    width: 250px;
     border-radius: 8px;
     opacity: 0.9;
 }
