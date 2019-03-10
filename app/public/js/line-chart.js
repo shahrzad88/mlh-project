@@ -19,7 +19,7 @@ $(document).ready(function() {
       responsive: false,
       title: {
         display: true,
-        text: 'March 2019 Spedings (in USD)'
+        text: 'March 2019 Spendings (in USD)'
       }
     }
   });
