@@ -10,25 +10,25 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/sidebar.css">
-  <link rel="stylesheet" type="text/css" href="./css/report.css">
+  <link rel="stylesheet" type="text/css" href="css/report.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
 </head>
 <body>
-    <div class="col-md-6" style="z-index: 1;">
-      <img class="logo" src="./resources/leaf logo.png"/>
-    </div>
-    <nav id="mySidebar" class="sidebar" style="z-index: 1;">
-      <a href="#" class="closebtn">×</a>
-      <a href="#" class="profile">Profile</a>
-      <a href="search.html" class="search">Search</a>
-      <a href="report.html" class="report">Personal Report</a>
-      <a href="#" class="setting">Setting</a>
-      <a href="#" class="about">About</a>
-      <a href="#" class="contact">Contact</a>
-    </nav>
-    <nav class="toggle-btn">
-      <button class="openbtn">☰</button>
-    </nav> 
+        <header class="col-md-6" style="z-index: 1;"><img class="logo" src="resources/leaf_logo.png" /></header>
+
+        <nav id="mySidebar" class="sidebar">
+          <a href="#" class="closebtn">×</a>
+          <a href="report.html" class="profile">Profile</a>
+          <a href="search.html" class="search">Search</a>
+          <a href="#" class="setting">Setting</a>
+          <a href="#" class="about">About</a>
+          <a href="#" class="contact">Contact</a>
+        </nav>
+
+        <nav class="toggle-btn">
+          <button class="openbtn">☰</button>
+        </nav>
+
     <div id="container">
         <canvas id="line"></canvas>
         <div id="bottom">
@@ -52,5 +52,6 @@
   <script src="./js/doughnut-chart.js"></script>
   <script type="text/javascript" src="./js/sidebar.js"></script>
   <script src="./js/measure.js"></script>
+  <script type="text/javascript" src="js/sidebar.js"></script>
 </body>
 </html>
