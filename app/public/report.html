@@ -18,13 +18,15 @@
         <div id="bottom">
             <canvas id="donut"></canvas>
             <div id="details">
-                <div id="score" class="detailsContainer">
-                    <div style="font-size: 18px;">Score</div>
+                <div id="scoreContainer" class="detailsContainer">
+                    <div id="score">Score</div>
                     <div id="totalScore">1.67</div>
                 </div>
                 <div id="companiesContainer" class="detailsContainer">
-                    <div id="greenCompanies" class="companies">Your Top Green Companies: <span>G1</span><span>G2</span><span>G3</span></div>
-                    <div id="nonGreenCompanies" class="companies">Your Top Non-Green Companies: <span>R1</span><span>R2</span><span>R3</span></div>
+                    <div>Your Top Green Companies:</div>
+                    <div id="greenCompanies" class="companies"></div>
+                    <div>Your Least Green Companies:</div>
+                    <div id="nonGreenCompanies" class="companies"></div>
                 </div>
             </div>
         </div>
