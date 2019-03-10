@@ -5,15 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/search.css">
-  <link rel="stylesheet" href="../css/report.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/sidebar.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <title>Red Maple</title>
+  <title>Search Page</title>
 </head>
 
 <body>
-  <header class="col-md-6"> <img class="logo" src="../images/leaf_logo.png" /> </header>
-  
+  <header class="col-md-6">
+    <img class="logo" src="resources/leaf_logo.png"/>
+  </header>
   <nav id="mySidebar" class="sidebar">
     <a href="#" class="closebtn">×</a>
     <a href="#" class="profile">Profile</a>
@@ -21,19 +22,15 @@
     <a href="#" class="about">About</a>
     <a href="#" class="contact">Contact</a>
   </nav>
-  
   <nav class="toggle-btn">
     <button class="openbtn">☰</button>
   </nav>
-  
   <form class="search-area" onsubmit="search_companies(value)">
     <input id="search-bar" type="text" name="search" placeholder="Search">
     <input id="submit" type="submit" hidden>
   </form>
-  
-  <div class="result">
-  </div>
+  <div class="result"></div>
 
-  <script type="text/javascript" src="../js/search.js"></script>
-  <script type="text/javascript" src="../js/report.js"></script>
+  <script type="text/javascript" src="js/search.js"></script>
+  <script type="text/javascript" src="js/sidebar.js"></script>
 </body>
