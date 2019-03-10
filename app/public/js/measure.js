@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const pageWidth = document.getElementById("line").style.width;
-  document.getElementById("bottom").style.width = pageWidth - 20;
+  document.getElementById("bottom").style.width = pageWidth;
   var greenList = ['TD', 'Dell', 'Telus'];
   var redList = ['Nestle', 'Max Mara', 'Diesel'];
   var greenDiv = document.getElementById("greenCompanies");
