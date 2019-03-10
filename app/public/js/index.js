@@ -20,7 +20,7 @@ signInBtn.addEventListener("click", () => {
     var pw = document.querySelector("#pw");
     var parentForm = document.querySelector(".modal-content");
     if (id.value === "semin@hacklassonde.io" && pw.value === "a1b2c3d4") {
-        parentForm.setAttribute("method", "POST");
+        parentForm.setAttribute("method", "GET");
         parentForm.setAttribute("action", "report.html");
     }
 });
