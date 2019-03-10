@@ -16,7 +16,23 @@ input[type=text]{
 }
 
 .result{
-  display: flex;
+  width: 77%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  /*display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  border: 1px solid #888;
+  width: 25%;
+  border-radius: 8px; */
+  /* background: rgba(0, 0, 0, 0.8); */
+  color: #f1f1f1;
+  border-radius: 8px;
+  padding: 20px;
+  /* text-align: center;
+  left: 10%;
+  right: 10%;
+  top: 5%; */
 }
