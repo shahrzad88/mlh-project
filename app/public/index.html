@@ -15,8 +15,8 @@
         <source src="./resources/RedLeaf.mp4" type="video/mp4">
     </video>
     <div class="goal">
-            <img class="logo" src="./resources/logo2.png" />
-        <h2>Impacting <span class ="goal-edit">Consumer</span> Choices</h2>
+        <img class="logo" src="./resources/logo2.png" />
+        <h2>Impacting <span class="goal-edit">Consumer</span> Choices</h2>
         <p>See your impact on the industrial market</p>
 
         <!-- Button to open the modal -->
@@ -26,21 +26,21 @@
     <!-- The Modal (contains the Sign Up form) -->
     <div id="id01" class="modal">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
-        <form class="modal-content" action="/action_page.php">
+        <form class="modal-content">
             <div class="container">
                 <h2>Sign In / Sign Up</h2>
                 <hr>
 
                 <!-- <label for="email"><b>Email</b></label> -->
-                <input type="text" placeholder="Email" name="email" required>
+                <input type="text" id="mail" placeholder="Email" name="email" value="semin@hacklassonde.io" required>
 
                 <!-- <label for="psw"><b>Password</b></label> -->
-                <input type="password" placeholder="Password" name="psw" required>
+                <input type="password" id="pw" placeholder="Password" name="psw" value="a1b2c3d4" required>
                 <div id="checked">
                     <input type="checkbox" checked="checked" style="margin-bottom:10px"> Remember me
                 </div>
                 <div class="clearfix">
-                    <button type="button" class="signin">Sign In</button>
+                    <button type="submit" class="signin">Sign In</button>
                     <button type="submit" class="signup">Sign Up</button>
                 </div>
             </div>
@@ -48,4 +48,5 @@
     </div>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
