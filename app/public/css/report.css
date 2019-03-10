@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: calc(100% - 180px);
+  max-width: calc(100% - 200px);
 }
 
 #details {
@@ -66,3 +66,4 @@
 #line {
   width: calc(100% - 180px);
 }
+
