@@ -1,0 +1,172 @@
+/* Style the background video: 100% width and height to cover the entire window */
+
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* Add goal at the bottom of the video/page */
+
+.goal {
+    position: fixed;
+    bottom: 10;
+    background: rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 15%;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
+}
+
+#checked {
+    font-size: 80%;
+}
+
+.logo {
+    position: absolute;
+    width: 3.5em;
+    height: 3.5em;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Add a background color when the inputs get focus */
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signin,
+.signup {
+    float: left;
+    width: 50%;
+}
+
+
+/* Add padding to container elements */
+
+.container {
+    padding: 16px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 1% auto 1% auto;
+    /* 1% from the top, 1% from the bottom and centered */
+    border: 1px solid #888;
+    width: 25%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* Style the horizontal ruler */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
